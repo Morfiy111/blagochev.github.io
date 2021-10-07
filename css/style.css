@@ -147,34 +147,19 @@ button.close {
 }
 .main-banner-button .order-button-click {
     font-size: 30px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 .practics-item-block {
-    width: 32%;
     padding: 40px 25px;
     position: relative;
     margin: 0 6px 20px 6px;
     box-shadow: 0px 4px 5px #777;
-}
-.button-title-practics {
-    background-color: transparent;
-    border: none;
-    color: #fff;
-    font-weight: bold;
-    display: block;
-    margin-bottom: 40px;
-    padding: 0;
-    position: relative;
-    border-bottom: 1px solid transparent;
-    text-align: left;
-}
-.button-title-practics:hover {
-    border-bottom: 1px solid #fff;
+    background-image: url('../images/zakon.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .flex-block-pracktics {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
     margin-bottom: 40px;
 }
 .overlay-practics {
@@ -184,6 +169,19 @@ button.close {
     left: 0;
     width: 100%;
     height: 100%;
+    transition: all .3s linear;
+}
+.practics-item-block:hover .overlay-practics {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.blue-block {
+    background-color: #200b8b;
+    padding: 40px 0;
+    margin-bottom: 40px;
+}
+.button-height-block {
+    color: #fff;
+    position: relative;
 }
 .modal-content {
     border-radius: 0;
@@ -200,15 +198,8 @@ button.close {
 .about-block-main-img img {
     width: 100%;
 }
-.black-main-page-button {
-    border-color: #0d0826;
-    color: #0d0826;
-}
-.black-main-page-button:hover:after {
-    border-color: #0d0826;
-}
 .main-success-img img {
-    width: 100%;
+    width: 150px;
 }
 .main-success-block {
     display: flex;
@@ -218,61 +209,24 @@ button.close {
 .main-success-item {
     width: 24%;
     text-align: center;
-    margin-bottom: 40px;
-    border: 1px solid #0d0826;
-    padding-bottom: 30px;
-    box-shadow: 0px 4px 5px #777;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 15px;
 }
 .main-success-title a {
     color: #0d0826;
     border-bottom: 1px solid #0d0826;
 }
 .main-success-title {
-    margin: 20px 0 40px 0;
-    height: 50px;
+    color: #fff;
 }
 .main-success-title a:hover {
     border-color: transparent;
 }
-.post-wrap {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin-bottom: 40px;
+.main-success-img {
+    margin-bottom: 15px;
 }
-.post-item-wrap {
-    background: #f5f5f5;
-    position: relative;
-    width: 31%;
-    margin-bottom: 40px;
-}
-.post-link {
-    text-decoration: none;
-    display: block;
-    padding: 30px;
-    color: #0d0826;
-}
-.post-item-wrap:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: #777;
-    transform: rotate(1deg);
-    transform-origin: left bottom;
-    transition: .3s ease-in-out;
-}
-.post-item-wrap:hover:after {
-    top: 5px;
-    left: 5px;
-    transform: rotate(2deg);
-}
-.post-item-wrap p {
-    font-size: 14px;
-}
+
 .footer-page {
     background-color: #0d0826;
     padding: 30px 0;
@@ -438,6 +392,10 @@ button.close {
 }
 .advantages-item-title {
     margin-bottom: 30px;
+}
+.quote-block {
+    border-left: 5px solid #ebbd57;
+    margin-bottom: 40px;
 }
 @media (min-width: 768px) {
     .navbar-nav {
