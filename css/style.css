@@ -111,6 +111,7 @@ button.close {
     padding: 5px 10px;
     border: 1px solid rgba(122, 122, 122, 0.25);
     border-radius: 2px;
+    resize: none;
 }
 .title-page {
     text-align: center;
