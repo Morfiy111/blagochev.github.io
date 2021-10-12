@@ -116,6 +116,7 @@ button.close {
 .title-page {
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 40px;
 }
 .order-button-click {
     background-color: transparent;
@@ -141,7 +142,6 @@ button.close {
 }
 .main-banner-block {
     position: relative;
-    margin-bottom: 40px;
 }
 .main-banner-button {
     bottom: 50px;
