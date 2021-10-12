@@ -369,6 +369,9 @@ button.close {
 .main-contact-text {
     margin-bottom: 40px;
 }
+.blue-block-padding {
+    padding: 40px 20px;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
