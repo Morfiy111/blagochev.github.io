@@ -372,6 +372,12 @@ button.close {
 .blue-block-padding {
     padding: 40px 20px;
 }
+.privacy-policy {
+    margin-top: 20px;
+}
+.privacy-policy a {
+    color: #200b8b;
+}
 @media (min-width: 768px) {
     .navbar-nav {
         display: flex;
